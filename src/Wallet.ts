@@ -180,7 +180,7 @@ export class Wallet {
 
   /**
    * Massage UTXOs returned by the Insight API to UTXO format accepted by the
-   * underlying qtumjs-lib.
+   * underlying recryptjs-lib.
    */
   public async getBitcoinjsUTXOs(): Promise<IUTXO[]> {
     const uxtos = await this.getUTXOs()
@@ -203,6 +203,6 @@ export class Wallet {
   // contractCreate
 
   // TODO
-  // qrc20 lookup
+  // rrc20 lookup
   // estimateCall
 }

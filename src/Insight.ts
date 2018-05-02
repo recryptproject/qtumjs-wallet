@@ -3,8 +3,8 @@ import { NetworkNames, INetworkInfo } from "./Network"
 import axios, { AxiosInstance } from "axios"
 
 const INSIGHT_BASEURLS: { [key: string]: string } = {
-  [NetworkNames.MAINNET]: "https://explorer.qtum.org/insight-api",
-  [NetworkNames.TESTNET]: "https://testnet.qtum.org/insight-api",
+  [NetworkNames.MAINNET]: "https://explorer.recrypt.org/insight-api",
+  [NetworkNames.TESTNET]: "https://testnet.recrypt.org/insight-api",
 }
 
 export class Insight {
@@ -147,7 +147,7 @@ export namespace Insight {
     addStr: string
 
     /**
-     * balance of address in qtum
+     * balance of address in recrypt
      */
     balance: number
 
